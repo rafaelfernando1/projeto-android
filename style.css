@@ -12,6 +12,12 @@ header {
     text-align: center;
     flex-direction: column;
 }
+
+header nav {
+    text-align: left;
+}
+
+
 #titulo h1 {
     font-family: "Bebas Neue";
     color: white;
@@ -22,26 +28,26 @@ header {
     color: white;
     text-align: center;
 }
-
-#menu button {
-    padding: 3px;
-    background-color: rgb(153, 185, 153);
-
-}
-
 #menu {
-    height: 50px;
-    align-items: start;
-    
-    
+    height: 25px;
 }
-#menu nav ul {
-    list-style: none;
-    color: white;
-    display: flex;
-    gap: 15px;
-    
+
+#menu a {
+    color: rgb(255, 255, 255); 
+    align-self: flex-start;
+    background-image: linear-gradient(rgb(106, 253, 106), rgb(17, 83, 0));
+    padding: 3px;
+    margin: 3px;
+    text-decoration: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px black;
+    margin-left: 10px;
 }
+    
+#menu a:hover {
+    background-image: linear-gradient(rgb(75, 253, 75), rgb(10, 48, 0));
+}
+
 
 main {
     display: flex;
