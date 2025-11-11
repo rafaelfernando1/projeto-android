@@ -60,7 +60,7 @@ main {
     display: flex;
     background-color: white;
     justify-content: start;
-    margin: 0px 400px;
+    margin: 0px 20%;
     box-shadow: 0px 0px 5px 1px rgb(17, 83, 0);
     padding: 15px;
 }
